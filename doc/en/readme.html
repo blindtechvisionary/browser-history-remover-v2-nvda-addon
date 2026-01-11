@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen">
+<title>Browser History Remover V2 - Complete Documentation</title>
+</head>
+<body>
+<h1>Browser History Remover V2 - Complete Documentation</h1>
+
+<h2>Overview</h2>
+<p><strong>Browser History Remover V2</strong> is a powerful NVDA add-on designed to help you manage and delete browsing history across multiple web browsers from a single, accessible interface. Instead of opening each browser individually and navigating through settings menus, this add-on lets you handle everything directly from within NVDA.</p>
+<p>Version 2 introduces significant improvements, including a configuration system that remembers your preferences, the ability to backup history before deletion, and a quick removal feature that lets you clear your default browser's history with a single keyboard shortcut.</p>
+<p>One important capability of this add-on is its ability to clear local history data even when you are signed into your browser account. Whether you use Chrome Sync, Firefox Sync, or similar services, this tool effectively removes local traces of your browsing activity.</p>
+<hr />
+
+<h2>What is New in Version 2</h2>
+<ul>
+<li><strong>Configuration Dialog:</strong> A dedicated settings panel where you can customize how the add-on behaves.</li>
+<li><strong>History Backup Option:</strong> Choose to save a copy of your browser history before it gets deleted, providing a safety net in case you need to recover something later.</li>
+<li><strong>Default Browser Selection:</strong> Set your preferred browser for quick removal operations.</li>
+<li><strong>Quick Remove Shortcut:</strong> Press NVDA+Alt+D to instantly delete history from your default browser without opening any dialogs.</li>
+<li><strong>Persistent Settings:</strong> Your preferences are saved automatically and remembered between NVDA sessions.</li>
+<li><strong>Improved Accessibility:</strong> Better keyboard navigation throughout all dialogs.</li>
+</ul>
+<hr />
+
+<h2>Supported Browsers</h2>
+<p>The add-on supports history removal for the following browsers:</p>
+<h3>Chromium-Based Browsers</h3>
+<ul>
+<li>Google Chrome</li>
+<li>Microsoft Edge</li>
+<li>Opera</li>
+<li>Brave</li>
+<li>Vivaldi</li>
+<li>Chromium</li>
+</ul>
+<h3>Firefox-Based Browsers</h3>
+<ul>
+<li>Mozilla Firefox</li>
+<li>Waterfox</li>
+<li>Pale Moon</li>
+<li>Basilisk</li>
+</ul>
+<h3>Other Browsers</h3>
+<ul>
+<li>SeaMonkey</li>
+</ul>
+<p><strong>Important:</strong> This add-on removes local browsing history stored on your computer. It does not delete history that has been synced to cloud services like Google Account or Firefox Sync. To completely clear your browsing footprint, you should also manage your sync settings within the browser itself.</p>
+<hr />
+
+<h2>Getting Started</h2>
+<h3>Opening the Main Dialog</h3>
+<p>There are two ways to open Browser History Remover:</p>
+<ul>
+<li>Press <strong>NVDA+Alt+B</strong> from anywhere in Windows.</li>
+<li>Navigate to <strong>NVDA Menu, then Tools, then Browser History Remover</strong>.</li>
+</ul>
+
+<h3>The Main Dialog</h3>
+<p>When you open the add-on, you will find a straightforward interface:</p>
+<ul>
+<li><strong>Browser List:</strong> A list box containing all supported browsers. Use the arrow keys to select the browser whose history you want to delete.</li>
+<li><strong>Delete History Button (Alt+D):</strong> Removes the browsing history for the selected browser.</li>
+<li><strong>Configurations Button (Alt+C):</strong> Opens the configuration dialog where you can adjust settings.</li>
+<li><strong>Exit Button:</strong> Closes the dialog.</li>
+</ul>
+<hr />
+
+<h2>Configuration Options</h2>
+<p>Press Alt+C from the main dialog or activate the Configurations button to access the settings panel.</p>
+
+<h3>Copy Browser History Before Deletion</h3>
+<p>When this checkbox is enabled, the add-on creates a backup of your browser history files before deleting them. The backup is saved to:</p>
+<p><code>C:\Users\YourUsername\Downloads\browser_history_remover\history\BrowserName\</code></p>
+<p>This feature is useful if you want to preserve a record of your browsing history or need to recover deleted data later.</p>
+
+<h3>Default Browser for Quick Remove</h3>
+<p>Select your preferred browser from the dropdown list. This browser will be used when you press the quick remove shortcut (NVDA+Alt+D), allowing you to delete history instantly without opening any dialogs.</p>
+
+<h3>Note Panel</h3>
+<p>The configuration dialog includes an informational note that displays which browser is set for quick removal. This panel can receive keyboard focus for screen reader users.</p>
+
+<h3>Saving Your Settings</h3>
+<ul>
+<li><strong>Save Button (Alt+S):</strong> Saves your configuration and returns to the main dialog.</li>
+<li><strong>Cancel Button (Alt+C):</strong> Discards any changes and returns to the main dialog.</li>
+</ul>
+<p>Your settings are stored using NVDA's configuration system and persist across restarts.</p>
+<hr />
+
+<h2>Keyboard Shortcuts</h2>
+<h3>Global Shortcuts</h3>
+<table>
+<tr>
+<th>Shortcut</th>
+<th>Action</th>
+</tr>
+<tr>
+<td>NVDA+Alt+B</td>
+<td>Open the Browser History Remover dialog</td>
+</tr>
+<tr>
+<td>NVDA+Alt+D</td>
+<td>Quick remove history for your default browser</td>
+</tr>
+</table>
+
+<h3>Main Dialog Shortcuts</h3>
+<table>
+<tr>
+<th>Shortcut</th>
+<th>Action</th>
+</tr>
+<tr>
+<td>Alt+D</td>
+<td>Delete history for the selected browser</td>
+</tr>
+<tr>
+<td>Alt+C</td>
+<td>Open the configuration dialog</td>
+</tr>
+<tr>
+<td>Ctrl+F</td>
+<td>Move focus to the browser list</td>
+</tr>
+<tr>
+<td>Ctrl+Q or Escape</td>
+<td>Close the dialog</td>
+</tr>
+</table>
+
+<h3>Configuration Dialog Shortcuts</h3>
+<table>
+<tr>
+<th>Shortcut</th>
+<th>Action</th>
+</tr>
+<tr>
+<td>Alt+S</td>
+<td>Save settings</td>
+</tr>
+<tr>
+<td>Alt+C or Escape</td>
+<td>Cancel and close</td>
+</tr>
+</table>
+
+<p>You can customize the global shortcuts through NVDA Preferences, then Input Gestures, under the Browser History Remover category.</p>
+<hr />
+
+<h2>Using Quick Remove</h2>
+<p>The quick remove feature is designed for users who frequently clear their browsing history and want to do so as efficiently as possible.</p>
+<ol>
+<li>First, open the configuration dialog and select your preferred default browser.</li>
+<li>Optionally, enable the backup option if you want copies of your history saved before deletion.</li>
+<li>Save your settings.</li>
+<li>From now on, simply press NVDA+Alt+D to instantly clear history for that browser.</li>
+</ol>
+<p>When you use quick remove, the add-on will speak status messages to keep you informed:</p>
+<ul>
+<li>If the browser is not installed, you will hear a message indicating this.</li>
+<li>If the browser is currently running, you will be asked to close it first.</li>
+<li>Upon successful deletion, you will hear a confirmation message.</li>
+</ul>
+<hr />
+
+<h2>How It Works</h2>
+<p>The add-on locates browser data directories in the Windows AppData folders and removes files associated with browsing history. Different browsers store their data in different locations:</p>
+
+<h3>Chromium-Based Browsers</h3>
+<p>These browsers store data in the Local AppData folder. The add-on targets files and folders including History, Cookies, Cache, Web Data, Favicons, Top Sites, Shortcuts, Visited Links, and various cache directories.</p>
+
+<h3>Firefox-Based Browsers</h3>
+<p>These browsers use profile folders in the Roaming AppData directory. The add-on removes places.sqlite (which contains history and bookmarks data), form history, session data, and cache folders.</p>
+
+<p>Before attempting deletion, the add-on checks whether the target browser is currently running. If it is, you will receive a warning and the deletion will not proceed until you close the browser.</p>
+<hr />
+
+<h2>Installation</h2>
+<ol>
+<li>Download the browserHistoryRemover.nvda-addon file from the distribution source.</li>
+<li>Open NVDA and go to Tools, then Add-on store.</li>
+<li>Click the Install button and browse to the downloaded file.</li>
+<li>Select the file and confirm the installation.</li>
+<li>Restart NVDA when prompted to complete the installation.</li>
+<hr />
+<p>Or, You can install the Add-on directly from the NVDA add-on store.</p>
+</ol>
+<hr />
+
+<h2>Version Information</h2>
+<ul>
+<li><strong>Add-on Version:</strong> 2.0</li>
+<li><strong>Minimum NVDA Version:</strong> 2023.1</li>
+<li><strong>Last Tested With:</strong> 2025.1</li>
+</ul>
+<hr />
+
+<h2>Important Notes and Disclaimers</h2>
+<ul>
+<li>Deleting browser history is a permanent action. Once deleted, the data cannot be recovered through normal means unless you have enabled the backup option.</li>
+<li>The backup feature copies history-related files before deletion. These backups are stored in your Downloads folder and can accumulate over time. You may want to periodically clean up old backups.</li>
+<li>This add-on only affects local data. Cloud-synced history remains on remote servers until you delete it through your browser account settings.</li>
+<li>Always close the target browser before attempting to delete its history. The add-on will warn you if the browser is running, but attempting to delete files while a browser is open may result in errors.</li>
+<li>The developer assumes no responsibility for data loss or unintended consequences resulting from the use of this add-on. Use it at your own discretion.</li>
+</ul>
+<hr />
+
+<h2>Troubleshooting</h2>
+<h3>History deletion fails</h3>
+<p>Make sure the browser is completely closed, including any background processes. Some browsers continue running in the background even after you close the main window. Check your system tray or use Task Manager to ensure the browser process has ended.</p>
+
+<h3>Browser shows as not installed</h3>
+<p>The add-on checks standard installation paths. If you have installed a browser in a non-standard location, the add-on may not detect it. Currently, custom installation paths are not supported.</p>
+
+<h3>Settings are not saving</h3>
+<p>Ensure you click the Save button in the configuration dialog. Pressing Escape or Cancel will discard your changes.</p>
+<hr />
+
+<h2>Developer Information</h2>
+<p><strong>Developed by:</strong> Sujan Rai</p>
+<p><strong>Email:</strong> allcontentnepali@gmail.com</p>
+<p><strong>Community Channel:</strong> <a href="https://t.me/blindtechvisionary">https://t.me/blindtechvisionary</a></p>
+<p>For bug reports, feature requests, or general feedback, feel free to reach out through email or join the Telegram channel for updates and discussions.</p>
+<hr />
+
+<h2>License</h2>
+<p>This add-on is released under the GNU General Public License version 2, consistent with the NVDA add-on ecosystem and open source principles.</p>
+<hr />
+
+<p><strong>Browser History Remover V2</strong> - Efficient, accessible browser history management for NVDA users.</p>
+</body>
+</html>
