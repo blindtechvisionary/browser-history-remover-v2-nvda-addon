@@ -1,0 +1,302 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-03-11 09:18+0200\n"
+"PO-Revision-Date: 2026-03-13 21:37+0200\n"
+"Last-Translator: Volodymyr Pyrih <vp88.mobile@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-Basepath: GitHub/browser-history-remover-v2-nvda-addon/"
+"globalPlugins\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: browserHistoryRemover/__init__.py:118 browserHistoryRemover/__init__.py:166
+msgid "Profile path does not exist."
+msgstr "Шлях до профілю не існує."
+
+#: browserHistoryRemover/__init__.py:125
+#, python-brace-format
+msgid "Failed to create backup directory: {}"
+msgstr "Не вдалося створити каталог резервної копії: {}"
+
+#: browserHistoryRemover/__init__.py:159
+msgid "Failed to copy any files."
+msgstr "Не вдалося скопіювати файли."
+
+#: browserHistoryRemover/__init__.py:202
+#, python-brace-format
+msgid "Deleted {} files and {} directories."
+msgstr "Видалено {} файлів і {} каталогів."
+
+#: browserHistoryRemover/__init__.py:207
+msgid "Selected backup path does not exist."
+msgstr "Вибраний шлях для резервної копії не існує."
+
+#: browserHistoryRemover/__init__.py:210
+msgid "Selected path is not a directory."
+msgstr "Вибраний шлях не є каталогом."
+
+#: browserHistoryRemover/__init__.py:219
+msgid "Selected backup folder is empty or contains no files."
+msgstr "Вибрана папка резервної копії порожня або не містить файлів."
+
+#: browserHistoryRemover/__init__.py:225
+#, python-brace-format
+msgid "Failed to create browser data path: {}"
+msgstr "Не вдалося створити шлях до даних браузера: {}"
+
+#: browserHistoryRemover/__init__.py:256
+#, python-brace-format
+msgid "Failed to clean existing browser data: {}"
+msgstr "Не вдалося очистити наявні дані браузера: {}"
+
+#: browserHistoryRemover/__init__.py:290
+#, python-brace-format
+msgid "Failed to restore history files: {}"
+msgstr "Не вдалося відновити файли історії: {}"
+
+#: browserHistoryRemover/__init__.py:293
+#, python-brace-format
+msgid "No files were restored. Failed files: {}"
+msgstr "Жоден файл не відновлено. Помилка файлів: {}"
+
+#: browserHistoryRemover/__init__.py:304
+#, python-brace-format
+msgid "{} files restored successfully. {} files failed."
+msgstr "{} файлів відновлено успішно. {} файлів не вдалося відновити."
+
+#: browserHistoryRemover/__init__.py:306
+#, python-brace-format
+msgid "{} files restored successfully."
+msgstr "{} файлів успішно відновлено."
+
+#: browserHistoryRemover/__init__.py:338
+msgid "Browser History Remover - Configuration"
+msgstr "Налаштування додатка для видалення історії браузера"
+
+#: browserHistoryRemover/__init__.py:350
+msgid "Co&py browser history before deletion"
+msgstr "Скопіювати &історію браузера перед видаленням"
+
+#: browserHistoryRemover/__init__.py:353
+msgid "Select default browser for &quick remove:"
+msgstr "Вибрати основний браузер для швидкого видалення:"
+
+#: browserHistoryRemover/__init__.py:367
+msgid "&Save"
+msgstr "&Зберегти"
+
+#: browserHistoryRemover/__init__.py:371
+msgid "&Cancel"
+msgstr "&Скасувати"
+
+#: browserHistoryRemover/__init__.py:386
+#, python-brace-format
+msgid ""
+"Note: Assign the shortcut to remove the history of {browser} via quick "
+"shortcut.\n"
+"Default shortcut: NVDA+Alt+D"
+msgstr ""
+"Примітка: Призначте комбінацію клавіш для видалення історії {browser}.\n"
+"Початкова комбінація клавіш: NVDA+Alt+D"
+
+#: browserHistoryRemover/__init__.py:424 browserHistoryRemover/__init__.py:715
+#: browserHistoryRemover/__init__.py:749 browserHistoryRemover/__init__.py:757
+msgid "Browser History Remover"
+msgstr "Додаток для видалення історії браузера"
+
+#: browserHistoryRemover/__init__.py:434
+msgid "Select browser:"
+msgstr "Вибрати браузер:"
+
+#: browserHistoryRemover/__init__.py:443
+msgid "&Delete History"
+msgstr "&Видалити історію"
+
+#: browserHistoryRemover/__init__.py:447
+msgid "&Restore History"
+msgstr "&Відновити історію"
+
+#: browserHistoryRemover/__init__.py:451
+msgid "&Configurations"
+msgstr "&Конфігурації"
+
+#: browserHistoryRemover/__init__.py:455
+msgid "E&xit"
+msgstr "&Вихід"
+
+#: browserHistoryRemover/__init__.py:505 browserHistoryRemover/__init__.py:566
+msgid "No browser selected."
+msgstr "Браузер не вибрано."
+
+#: browserHistoryRemover/__init__.py:506 browserHistoryRemover/__init__.py:557
+#: browserHistoryRemover/__init__.py:567 browserHistoryRemover/__init__.py:613
+#: browserHistoryRemover/__init__.py:622 browserHistoryRemover/__init__.py:631
+#: browserHistoryRemover/__init__.py:641 browserHistoryRemover/__init__.py:678
+msgid "Error"
+msgstr "Помилка"
+
+#: browserHistoryRemover/__init__.py:516 browserHistoryRemover/__init__.py:577
+#, python-brace-format
+msgid "Sorry, {browser} is not installed in your system."
+msgstr "На жаль, {browser} не встановлено у вашій системі."
+
+#: browserHistoryRemover/__init__.py:517 browserHistoryRemover/__init__.py:578
+msgid "Browser Not Found"
+msgstr "Браузер не знайдено"
+
+#: browserHistoryRemover/__init__.py:525
+#, python-brace-format
+msgid "Please exit {browser} before removing history."
+msgstr "Перш ніж видаляти історію, вийдіть із {browser}."
+
+#: browserHistoryRemover/__init__.py:526 browserHistoryRemover/__init__.py:587
+msgid "Browser Running"
+msgstr "Браузер запущено"
+
+#: browserHistoryRemover/__init__.py:533
+#, python-brace-format
+msgid "Delete all browsing history for {browser}?"
+msgstr "Видалити всю історію перегляду для {browser}?"
+
+#: browserHistoryRemover/__init__.py:534
+msgid "Confirm Deletion"
+msgstr "Підтвердити видалення"
+
+#: browserHistoryRemover/__init__.py:546 browserHistoryRemover/__init__.py:788
+#, python-brace-format
+msgid "History for {browser} has been deleted successfully."
+msgstr "Історію для {browser} успішно видалено."
+
+#: browserHistoryRemover/__init__.py:547 browserHistoryRemover/__init__.py:668
+msgid "Success"
+msgstr "Успіх"
+
+#: browserHistoryRemover/__init__.py:553
+#, python-brace-format
+msgid ""
+"Failed to delete history for {browser}.\n"
+"\n"
+"Reason: {error}"
+msgstr ""
+"Не вдалося видалити історію для {browser}.\n"
+"\n"
+"Причина: {error}"
+
+#: browserHistoryRemover/__init__.py:586
+#, python-brace-format
+msgid "Please exit {browser} before restoring history."
+msgstr "Перед відновленням історії закрийте {browser}."
+
+#: browserHistoryRemover/__init__.py:598
+#, python-brace-format
+msgid "Select backup folder containing history for {browser}"
+msgstr "Виберіть папку резервної копії, що містить історію для {browser}"
+
+#: browserHistoryRemover/__init__.py:612
+msgid "No folder selected."
+msgstr "Папка не вибрана."
+
+#: browserHistoryRemover/__init__.py:621
+msgid "Selected folder does not exist."
+msgstr "Вибраної папки не існує."
+
+#: browserHistoryRemover/__init__.py:630
+msgid "Selected folder is empty."
+msgstr "Вибрана папка порожня."
+
+#: browserHistoryRemover/__init__.py:640
+#, python-brace-format
+msgid "Could not determine browser data path for {browser}."
+msgstr "Не вдалося визначити шлях до даних браузера для {browser}."
+
+#: browserHistoryRemover/__init__.py:648
+#, python-brace-format
+msgid ""
+"This will replace the current history data for {browser} with the backup "
+"from:\n"
+"{path}\n"
+"\n"
+"Current history data will be deleted. Continue?"
+msgstr ""
+"Це замінить поточні дані історії {browser} резервною копією з:\n"
+"{path}\n"
+"\n"
+"Поточні дані історії будуть видалені. Продовжити?"
+
+#: browserHistoryRemover/__init__.py:652
+msgid "Confirm Restore"
+msgstr "Підтвердити відновлення"
+
+#: browserHistoryRemover/__init__.py:664
+#, python-brace-format
+msgid ""
+"History for {browser} has been restored successfully.\n"
+"\n"
+"{details}"
+msgstr ""
+"Історія для {browser} успішно відновлена.\n"
+"\n"
+"{details}"
+
+#: browserHistoryRemover/__init__.py:674
+#, python-brace-format
+msgid ""
+"Failed to restore history for {browser}.\n"
+"\n"
+"Reason: {error}"
+msgstr ""
+"Не вдалося відновити історію для {browser}.\n"
+"\n"
+"Причина: {error}"
+
+#: browserHistoryRemover/__init__.py:688
+msgid "Browser data path not found."
+msgstr "Шлях до даних браузера не знайдено."
+
+#: browserHistoryRemover/__init__.py:693
+#, python-brace-format
+msgid "Failed to backup history: {}"
+msgstr "Не вдалося створити резервну копію історії: {}"
+
+#: browserHistoryRemover/__init__.py:716
+msgid "Remove browsing history for various browsers"
+msgstr "Видалити історію переглядів у різних браузерах"
+
+#: browserHistoryRemover/__init__.py:748
+msgid "Open Browser History Remover"
+msgstr "Відкриває додаток очищення історії браузера"
+
+#: browserHistoryRemover/__init__.py:756
+msgid "Quick remove history for default browser"
+msgstr "Швидке видалення історії для основного браузера"
+
+#: browserHistoryRemover/__init__.py:767
+#, python-brace-format
+msgid "{browser} is not installed."
+msgstr "{browser} не встановлено."
+
+#: browserHistoryRemover/__init__.py:771
+#, python-brace-format
+msgid "{browser} is running. Please exit it before history deletion."
+msgstr ""
+"{browser} запущено. Будь ласка, вийдіть з нього перед видаленням історії."
+
+#: browserHistoryRemover/__init__.py:776
+#, python-brace-format
+msgid "Browser data path not found for {browser}."
+msgstr "Не знайдено шлях до даних браузера для {browser}."
+
+#: browserHistoryRemover/__init__.py:783
+#, python-brace-format
+msgid "Failed to backup history for {browser}."
+msgstr "Не вдалося створити резервну копію історії для {browser}."
+
+#: browserHistoryRemover/__init__.py:790 browserHistoryRemover/__init__.py:793
+#, python-brace-format
+msgid "Failed to delete history for {browser}."
+msgstr "Не вдалося видалити історію для {browser}."
