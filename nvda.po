@@ -1,0 +1,308 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Browser History Remover v2.02\n"
+"POT-Creation-Date: 2026-03-25 19:03-0300\n"
+"PO-Revision-Date: 2026-03-25 20:28-0300\n"
+"Last-Translator: \n"
+"Language-Team: Comunidad de NVDA\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-Basepath: ../AppData/Roaming/nvda/addons/browserHistoryRemover/"
+"globalPlugins/browserHistoryRemover\n"
+"X-Poedit-KeywordsList: _.\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: __init__.py\n"
+
+#: __init__.py:118 __init__.py:166
+msgid "Profile path does not exist."
+msgstr "La ruta del perfil no existe."
+
+#: __init__.py:125
+#, python-brace-format
+msgid "Failed to create backup directory: {}"
+msgstr "Error al crear el directorio de respaldo: {}"
+
+#: __init__.py:159
+msgid "Failed to copy any files."
+msgstr "Error al copiar los archivos."
+
+#: __init__.py:202
+#, python-brace-format
+msgid "Deleted {} files and {} directories."
+msgstr "Se eliminaron {} archivos y {} directorios."
+
+#: __init__.py:207
+msgid "Selected backup path does not exist."
+msgstr "La ruta de respaldo seleccionada no existe."
+
+#: __init__.py:210
+msgid "Selected path is not a directory."
+msgstr "La ruta seleccionada no es un directorio."
+
+#: __init__.py:219
+msgid "Selected backup folder is empty or contains no files."
+msgstr ""
+"La carpeta de respaldo seleccionada está vacía o no contiene archivos."
+
+#: __init__.py:225
+#, python-brace-format
+msgid "Failed to create browser data path: {}"
+msgstr "Error al crear la ruta de datos del navegador: {}"
+
+#: __init__.py:256
+#, python-brace-format
+msgid "Failed to clean existing browser data: {}"
+msgstr "Error al eliminar los datos existentes del navegador: {}"
+
+#: __init__.py:290
+#, python-brace-format
+msgid "Failed to restore history files: {}"
+msgstr "Error al restaurar los archivos del historial: {}"
+
+#: __init__.py:293
+#, python-brace-format
+msgid "No files were restored. Failed files: {}"
+msgstr "No se restauró ningún archivo. Archivos fallidos: {}"
+
+#: __init__.py:304
+#, python-brace-format
+msgid "{} files restored successfully. {} files failed."
+msgstr "{} archivos restaurados correctamente. {} archivos fallaron."
+
+#: __init__.py:306
+#, python-brace-format
+msgid "{} files restored successfully."
+msgstr "{} archivos restaurados correctamente."
+
+#: __init__.py:338
+msgid "Browser History Remover - Configuration"
+msgstr "Browser History Remover - Configuración"
+
+#: __init__.py:350
+msgid "Co&py browser history before deletion"
+msgstr "Co&piar historial del navegador antes de eliminar"
+
+#: __init__.py:353
+msgid "Select default browser for &quick remove:"
+msgstr "Seleccionar navegador predeterminado para eliminación &rápida:"
+
+#: __init__.py:367
+msgid "&Save"
+msgstr "&Guardar"
+
+#: __init__.py:371
+msgid "&Cancel"
+msgstr "&Cancelar"
+
+#: __init__.py:386
+#, python-brace-format
+msgid ""
+"Note: Assign the shortcut to remove the history of {browser} via quick "
+"shortcut.\n"
+"Default shortcut: NVDA+Alt+D"
+msgstr ""
+"Nota: Asignar el atajo para eliminar el historial de {browser} mediante "
+"el atajo rápido.\n"
+"Atajo predeterminado: NVDA+Alt+D"
+
+#: __init__.py:424 __init__.py:715 __init__.py:749 __init__.py:757
+msgid "Browser History Remover"
+msgstr "Browser History Remover"
+
+#: __init__.py:434
+msgid "Select browser:"
+msgstr "Seleccionar navegador:"
+
+#: __init__.py:443
+msgid "&Delete History"
+msgstr "&Eliminar historial"
+
+#: __init__.py:447
+msgid "&Restore History"
+msgstr "&Restaurar historial"
+
+#: __init__.py:451
+msgid "&Configurations"
+msgstr "&Configuraciones"
+
+#: __init__.py:455
+msgid "E&xit"
+msgstr "&Salir"
+
+#: __init__.py:505 __init__.py:566
+msgid "No browser selected."
+msgstr "No se ha seleccionado ningún navegador."
+
+#: __init__.py:506 __init__.py:557 __init__.py:567 __init__.py:613
+#: __init__.py:622 __init__.py:631 __init__.py:641 __init__.py:678
+msgid "Error"
+msgstr "Error"
+
+#: __init__.py:516 __init__.py:577
+#, python-brace-format
+msgid "Sorry, {browser} is not installed in your system."
+msgstr "Lo sentimos, {browser} no está instalado en tu sistema."
+
+#: __init__.py:517 __init__.py:578
+msgid "Browser Not Found"
+msgstr "Navegador no encontrado"
+
+#: __init__.py:525
+#, python-brace-format
+msgid "Please exit {browser} before removing history."
+msgstr "Por favor, cierra {browser} antes de eliminar el historial."
+
+#: __init__.py:526 __init__.py:587
+msgid "Browser Running"
+msgstr "Navegador en ejecución"
+
+#: __init__.py:533
+#, python-brace-format
+msgid "Delete all browsing history for {browser}?"
+msgstr "¿Eliminar todo el historial de navegación de {browser}?"
+
+#: __init__.py:534
+msgid "Confirm Deletion"
+msgstr "Confirmar eliminación"
+
+#: __init__.py:546 __init__.py:788
+#, python-brace-format
+msgid "History for {browser} has been deleted successfully."
+msgstr "El historial de {browser} se ha eliminado correctamente."
+
+#: __init__.py:547 __init__.py:668
+msgid "Success"
+msgstr "Éxito"
+
+#: __init__.py:553
+#, python-brace-format
+msgid ""
+"Failed to delete history for {browser}.\n"
+"\n"
+"Reason: {error}"
+msgstr ""
+"Error al eliminar el historial de {browser}.\n"
+"\v\n"
+"\vMotivo: {error}"
+
+#: __init__.py:586
+#, python-brace-format
+msgid "Please exit {browser} before restoring history."
+msgstr "Por favor, cerrar {browser} antes de restaurar el historial."
+
+#: __init__.py:598
+#, python-brace-format
+msgid "Select backup folder containing history for {browser}"
+msgstr ""
+"Selecciona la carpeta de respaldo que contiene el historial de {browser}"
+
+#: __init__.py:612
+msgid "No folder selected."
+msgstr "No se seleccionó ninguna carpeta."
+
+#: __init__.py:621
+msgid "Selected folder does not exist."
+msgstr "La carpeta seleccionada no existe."
+
+#: __init__.py:630
+msgid "Selected folder is empty."
+msgstr "La carpeta seleccionada está vacía."
+
+#: __init__.py:640
+#, python-brace-format
+msgid "Could not determine browser data path for {browser}."
+msgstr ""
+"No se pudo determinar la ruta de datos del navegador para {browser}."
+
+#: __init__.py:648
+#, python-brace-format
+msgid ""
+"This will replace the current history data for {browser} with the backup "
+"from:\n"
+"{path}\n"
+"\n"
+"Current history data will be deleted. Continue?"
+msgstr ""
+"Esto reemplazará los datos actuales del historial de {browser} con el "
+"respaldo de:\n"
+"\v{path}\n"
+"\v\n"
+"\vLos datos actuales del historial se eliminarán. ¿Continuar?"
+
+#: __init__.py:652
+msgid "Confirm Restore"
+msgstr "Confirmar restauración"
+
+#: __init__.py:664
+#, python-brace-format
+msgid ""
+"History for {browser} has been restored successfully.\n"
+"\n"
+"{details}"
+msgstr ""
+"El historial de {browser} se ha restaurado correctamente.\n"
+"\v\n"
+"\v{details}"
+
+#: __init__.py:674
+#, python-brace-format
+msgid ""
+"Failed to restore history for {browser}.\n"
+"\n"
+"Reason: {error}"
+msgstr ""
+"Error al restaurar el historial de {browser}.\n"
+"\v\n"
+"\vMotivo: {error}"
+
+#: __init__.py:688
+msgid "Browser data path not found."
+msgstr "No se encontró la ruta de datos del navegador."
+
+#: __init__.py:693
+#, python-brace-format
+msgid "Failed to backup history: {}"
+msgstr "Error al respaldar el historial: {}"
+
+#: __init__.py:716
+msgid "Remove browsing history for various browsers"
+msgstr "Eliminar el historial de navegación de varios navegadores"
+
+#: __init__.py:748
+msgid "Open Browser History Remover"
+msgstr "Abrir Browser History Remover"
+
+#: __init__.py:756
+msgid "Quick remove history for default browser"
+msgstr "Eliminación rápida del historial para el navegador predeterminado"
+
+#: __init__.py:767
+#, python-brace-format
+msgid "{browser} is not installed."
+msgstr "{browser} no está instalado."
+
+#: __init__.py:771
+#, python-brace-format
+msgid "{browser} is running. Please exit it before history deletion."
+msgstr ""
+"{browser} se está ejecutando. Por favor, cerrar antes de eliminar el "
+"historial."
+
+#: __init__.py:776
+#, python-brace-format
+msgid "Browser data path not found for {browser}."
+msgstr "No se encontró la ruta de datos del navegador para {browser}."
+
+#: __init__.py:783
+#, python-brace-format
+msgid "Failed to backup history for {browser}."
+msgstr "Error al respaldar el historial de {browser}."
+
+#: __init__.py:790 __init__.py:793
+#, python-brace-format
+msgid "Failed to delete history for {browser}."
+msgstr "Error al eliminar el historial de {browser}."
