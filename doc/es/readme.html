@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Browser History Remover V2 - Documentación Completa</title>
+</head>
+<body>
+<h1>Browser History Remover V2 - Documentación Completa</h1>
+
+<h2>Descripción general</h2>
+<p><strong>Browser History Remover V2</strong> es un potente complemento de NVDA diseñado para ayudarte a gestionar y eliminar el historial de navegación de múltiples navegadores web desde una interfaz única y accesible. En lugar de abrir cada navegador individualmente y navegar por los menús de configuración, este complemento te permite manejar todo directamente desde NVDA.</p>
+<p>La versión 2 introduce mejoras significativas, incluyendo un sistema de configuración que recuerda tus preferencias, la capacidad de realizar copias de seguridad del historial antes de su eliminación y una función de eliminación rápida que te permite borrar el historial de tu navegador predeterminado con un solo atajo de teclado.</p>
+<p>Una capacidad importante de este complemento es su habilidad para borrar los datos del historial local incluso cuando tienes la sesión iniciada en tu cuenta del navegador. Ya sea que uses Chrome Sync, Firefox Sync o servicios similares, esta herramienta elimina eficazmente los rastros locales de tu actividad de navegación.</p>
+<hr />
+
+<h2>Novedades de la Versión 2</h2>
+<ul>
+<li><strong>Diálogo de configuración:</strong> Un panel de ajustes dedicado donde puedes personalizar el comportamiento del complemento.</li>
+<li><strong>Opción de respaldo del historial:</strong> Elige guardar una copia de tu historial antes de borrarlo, proporcionando una red de seguridad en caso de que necesites recuperar algo más tarde.</li>
+<li><strong>Selección de navegador predeterminado:</strong> Establece tu navegador preferido para las operaciones de eliminación rápida.</li>
+<li><strong>Atajo de eliminación rápida:</strong> Presiona NVDA+Alt+D para borrar instantáneamente el historial de tu navegador predeterminado sin abrir ningún diálogo.</li>
+<li><strong>Ajustes persistentes:</strong> Tus preferencias se guardan automáticamente y se recuerdan entre sesiones de NVDA.</li>
+<li><strong>Accesibilidad mejorada:</strong> Mejor navegación por teclado en todos los diálogos.</li>
+</ul>
+<hr />
+
+<h2>Navegadores Soportados</h2>
+<p>El complemento admite la eliminación del historial en los siguientes navegadores:</p>
+<h3>Navegadores basados en Chromium</h3>
+<ul>
+<li>Google Chrome</li>
+<li>Microsoft Edge</li>
+<li>Opera</li>
+<li>Brave</li>
+<li>Vivaldi</li>
+<li>Chromium</li>
+</ul>
+<h3>Navegadores basados en Firefox</h3>
+<ul>
+<li>Mozilla Firefox</li>
+<li>Waterfox</li>
+<li>Pale Moon</li>
+<li>Basilisk</li>
+</ul>
+<h3>Otros navegadores</h3>
+<ul>
+<li>SeaMonkey</li>
+</ul>
+<p><strong>Importante:</strong> Este complemento elimina el historial de navegación local almacenado en tu ordenador. No elimina el historial que se ha sincronizado con servicios en la nube como la Cuenta de Google o Firefox Sync. Para limpiar completamente tu huella de navegación, también debes gestionar los ajustes de sincronización dentro del propio navegador.</p>
+<hr />
+
+<h2>Primeros Pasos</h2>
+<h3>Abrir el diálogo principal</h3>
+<p>Hay dos formas de abrir Browser History Remover:</p>
+<ul>
+<li>Presiona <strong>NVDA+Alt+B</strong> desde cualquier lugar en Windows.</li>
+<li>Navega al <strong>Menú NVDA, luego Herramientas y después Browser History Remover</strong>.</li>
+</ul>
+
+<h3>El Diálogo Principal</h3>
+<p>Al abrir el complemento, encontrarás una interfaz sencilla:</p>
+<ul>
+<li><strong>Lista de navegadores:</strong> Un cuadro de lista con todos los navegadores soportados. Usa las flechas para seleccionar el navegador cuyo historial deseas borrar.</li>
+<li><strong>Botón Eliminar historial (Alt+D):</strong> Elimina el historial del navegador seleccionado.</li>
+<li><strong>Botón Configuraciones (Alt+C):</strong> Abre el diálogo de configuración.</li>
+<li><strong>Botón Salir:</strong> Cierra el diálogo.</li>
+</ul>
+<hr />
+
+<h2>Opciones de Configuración</h2>
+<p>Presiona Alt+C desde el diálogo principal para acceder al panel de ajustes.</p>
+
+<h3>Copiar historial del navegador antes de la eliminación</h3>
+<p>Cuando esta casilla está activada, el complemento crea un respaldo de tus archivos de historial antes de borrarlos. El respaldo se guarda en:</p>
+<p><code>C:\Users\TuUsuario\Downloads\browser_history_remover\history\NombreDelNavegador\</code></p>
+
+<h3>Navegador predeterminado para eliminación rápida</h3>
+<p>Selecciona tu navegador preferido de la lista desplegable. Este será el que se use al presionar el atajo de eliminación rápida (NVDA+Alt+D).</p>
+
+<h3>Botones de Guardado</h3>
+<ul>
+<li><strong>Botón Guardar (Alt+S):</strong> Guarda tu configuración y vuelve al diálogo principal.</li>
+<li><strong>Botón Cancelar (Alt+C):</strong> Descarta los cambios y vuelve al diálogo principal.</li>
+</ul>
+<hr />
+
+<h2>Atajos de Teclado</h2>
+<h3>Atajos Globales</h3>
+<table border="1">
+<tr>
+<th>Atajo</th>
+<th>Acción</th>
+</tr>
+<tr>
+<td>NVDA+Alt+B</td>
+<td>Abrir el diálogo de Browser History Remover</td>
+</tr>
+<tr>
+<td>NVDA+Alt+D</td>
+<td>Eliminación rápida del historial para el navegador predeterminado</td>
+</tr>
+</table>
+<hr />
+
+<h2>Información del Desarrollador</h2>
+<p><strong>Desarrollado por:</strong> Sujan Rai</p>
+<p><strong>Canal de la Comunidad:</strong> <a href="https://t.me/blindtechvisionary">https://t.me/blindtechvisionary</a></p>
+
+<p><strong>Browser History Remover V2</strong> - Gestión de historial accesible y eficiente para usuarios de NVDA.</p>
+</body>
+</html>
